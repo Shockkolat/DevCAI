@@ -29,7 +29,7 @@
                 <ul class="navbar-nav">
 
                     <li class="nav-item">
-                        <a href="./index.html">Home</a>
+                        <a href="./index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about">About Us</a>
@@ -49,7 +49,7 @@
                 
 
                 <button class="btn btn-secondary">
-                    <p class="btn-text"><a href="./login.html">ลงชื่อเข้าใช้</a></p>
+                    <p class="btn-text"><a href="./login.php">ลงชื่อเข้าใช้</a></p>
                     <span class="square"></span>
                 </button>
 

@@ -34,7 +34,7 @@
                 <ul class="navbar-nav">
 
                     <li class="nav-item">
-                        <a href="./index.html">Home</a>
+                        <a href="./index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about">About Us</a>
@@ -52,12 +52,12 @@
                 </ul>
 
                 <button class="btn btn-secondary">
-                    <p class="btn-text"><a href="./login.html">ลงชื่อเข้าใช้</a></p>
+                    <p class="btn-text"><a href="./login.php">ลงชื่อเข้าใช้</a></p>
                     <span class="square"></span>
                 </button>
 
                 <button class="btn btn-primary">
-                    <p class="btn-text"><a href="./registration.html">สมัครสมาชิกฟรี</a></p>
+                    <p class="btn-text"><a href="./registration.php">สมัครสมาชิกฟรี</a></p>
                     <span class="square"></span>
                 </button>
 
@@ -93,7 +93,20 @@
             </div>
       
             <div class="features-right">
-              <img src="./image/staticimg.png" alt="core features image" />
+            
+             
+               
+                <div class="lesson-selector">
+                  <select>
+                    <option value="lesson1">บทที่ 1 การวิเคราะห์ข้อมูลเบื่องต้น</option>
+                    <option value="lesson2">บทที่ 2 ตัวแปรสุ่มและการแจกแจงความน่าจะเป็น</option>
+                    <option value="lesson3">บทที่ 3 การแจกแจงค่าของสถิติ</option>
+                  </select>
+                </div>
+                
+              
+
+
               <button class="btn btn-primary add">
                 <p class="btn-text">เพิ่มเนื้อหา</p>
                 <span class="square"></span>
@@ -104,7 +117,7 @@
               </button>
             </div>
           </section>
-
+      
 
     </div>
 
