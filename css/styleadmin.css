@@ -17,6 +17,7 @@ li {
 a {
   text-decoration: none;
   font: inherit;
+  
 }
 
 img,
@@ -159,10 +160,11 @@ html {
 
 .nav-item a {
   padding: 10px;
-  font-size: var(--fs-5);
+  font-size: var(--fs-6);
   font-weight: var(--fw-6);
   color: var(--oxford-blue);
   transition: var(--default-transition);
+  margin-right: 25px;
 }
 
 .nav-item:not(:last-child) a {

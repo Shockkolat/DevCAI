@@ -34,32 +34,27 @@
                 <ul class="navbar-nav">
 
                     <li class="nav-item">
-                        <a href="./index.php">Home</a>
+                        <a href="./index.php">Edit Lesson</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about">About Us</a>
+                        <a href="#about">Students List</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#course">Course</a>
+                        <a href="#course">Talk with Student</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#blog">Blog</a>
+                        <a href="#blog">Course Status</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact">Contact Us</a>
+                        <a href="#contact">Edit Document</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact">Edit Exam</a>
                     </li>
 
                 </ul>
 
-                <button class="btn btn-secondary">
-                    <p class="btn-text"><a href="./login.php">ลงชื่อเข้าใช้</a></p>
-                    <span class="square"></span>
-                </button>
-
-                <button class="btn btn-primary">
-                    <p class="btn-text"><a href="./registration.php">สมัครสมาชิกฟรี</a></p>
-                    <span class="square"></span>
-                </button>
+                
 
                 <button class="nav-toggle-btn">
                     <span class="one"></span>
