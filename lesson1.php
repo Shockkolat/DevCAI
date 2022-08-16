@@ -80,7 +80,7 @@ family=Jost:wght@500;600;700;800;900&display=swap" rel="stylesheet">
             <main> 
 
                 <div class="video">
-                    <iframe width="854" height="480" src="https://youtube.com/embed//6WdLwsrXTNA" title="ที่ผ่านมา | YERM【Official MV】"></iframe>
+                    <iframe width="854" height="480" src="https://youtube.com/embed//6WdLwsrXTNA" title="Stat"></iframe>
                 </div>
 
             </main>

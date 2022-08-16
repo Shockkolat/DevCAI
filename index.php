@@ -57,12 +57,12 @@
                 </ul>
 
                 <button class="btn btn-secondary">
-                    <p class="btn-text"><a href="./login.html">ลงชื่อเข้าใช้</a></p>
+                    <p class="btn-text"><a href="./login.php">ลงชื่อเข้าใช้</a></p>
                     <span class="square"></span>
                 </button>
 
                 <button class="btn btn-primary">
-                    <p class="btn-text"><a href="./registration.html">สมัครสมาชิกฟรี</a></p>
+                    <p class="btn-text"><a href="./registration.php">สมัครสมาชิกฟรี</a></p>
                     <span class="square"></span>
                 </button>
 
