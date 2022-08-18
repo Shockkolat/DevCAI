@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,10 +33,10 @@
                 <ul class="navbar-nav">
 
                     <li class="nav-item">
-                        <a href="./index.php">Edit Lesson</a>
+                        <a href="./admin.php">Edit Lesson</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about">Students List</a>
+                        <a href="./studentlist.php">Students List</a>
                     </li>
                     <li class="nav-item">
                         <a href="#course">Talk with Student</a>
