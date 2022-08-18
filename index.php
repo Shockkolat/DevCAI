@@ -7,7 +7,7 @@
     <title>Stat E-learning Home</title>
 
     <!--css link-->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="./css/media_queries.css">
     <link rel="stylesheet" href="./css/animation.css">
     
@@ -39,7 +39,7 @@
                 <ul class="navbar-nav">
 
                     <li class="nav-item">
-                        <a href="./index.html">Home</a>
+                        <a href="./index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about">About Us</a>

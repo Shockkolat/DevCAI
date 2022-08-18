@@ -7,7 +7,7 @@
         <title>Stat E-learning Login</title>
 
         <!-- CSS -->
-        <link rel="stylesheet" href="./css/stylelogin.css">
+        <link rel="stylesheet" href="./css/stylelogin.css?v=<?php echo time(); ?>">
         <link rel="stylesheet" href="./css/media_queries.css">
         <link rel="stylesheet" href="./css/animation.css">
         
@@ -35,7 +35,7 @@
                     <ul class="navbar-nav">
     
                         <li class="nav-item">
-                            <a href="./index.html">Home</a>
+                            <a href="./index.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <a href="#about">About Us</a>
@@ -55,7 +55,7 @@
                     
     
                     <button class="btn btn-primary">
-                        <p class="btn-text"><a href="./registration.html">สมัครสมาชิกฟรี</a></p>
+                        <p class="btn-text"><a href="./registration.php">สมัครสมาชิกฟรี</a></p>
                         <span class="square"></span>
                     </button>
     

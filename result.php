@@ -7,7 +7,7 @@
     <title>Stat E-learning</title>
 
     <!--css link-->
-    <link rel="stylesheet" href="./css/styleresult.css" />
+    <link rel="stylesheet" href="./css/styleresult.css?v=<?php echo time(); ?>" />
     <link rel="stylesheet" href="./css/media_queries.css" />
     <link rel="stylesheet" href="./css/animation.css" />
 

@@ -8,7 +8,7 @@
 
     
     <!--css link-->
-    <link rel="stylesheet" href="./css/styleadmin.css">
+    <link rel="stylesheet" href="./css/styleadmin.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="./css/media_queries.css">
     <link rel="stylesheet" href="./css/animation.css">
     
@@ -20,10 +20,9 @@
 
 </head>
 
-<body>
+  <body>
     <div class="container">
-
-        <header>
+      <header>
 
             <nav class="navbar">
 
@@ -64,10 +63,10 @@
 
             </nav>
 
-        </header>
+      </header>
 
-        
-        <section class="features">
+      <main>
+      <section class="features">
             <div class="features-left">
     
               <h2 class="section-title">Admin</h2>
@@ -111,12 +110,29 @@
                 <span class="square"></span>
               </button>
             </div>
-          </section>
+      </section>
+
+      <section class="example">
+
+          <div class="videoex">
+               <iframe width="854" height="480" src="https://youtube.com/embed//6WdLwsrXTNA" title="Stat"></iframe>
+          </div>
+          
+          <!-- actual upload which is hidden -->
+          <input type="file" id="actual-btn" hidden/>
+
+          <!-- our custom upload button -->
+          <label for="actual-btn">เลือกไฟล์วิดีโอที่ต้องการอัพโหลด</label>
+
+          <!-- name of file chosen -->
+          <span id="file-chosen">ยังไม่ได้เลือกไฟล์</span>
+   
+      </section>
       
 
     </div>
-
+    </main>
     <!-- JavaScript -->
-    <script src="js/script.js"></script>
-</body>
+    <script src="js/script.js?v=<?php echo time(); ?>"></script>
+  </body>
 </html>

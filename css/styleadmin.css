@@ -336,7 +336,7 @@ html {
  }
 
  .lesson-selector::after {
-  content: '\25BC';
+  
   position: absolute;
   top: 0;
   right: 0;
@@ -344,6 +344,7 @@ html {
   background-color: #ffffff;
   transition: .25s all ease;
   pointer-events: none;
+  max-width: fit-content;
   }
 
 
@@ -352,6 +353,37 @@ html {
   color: var(--red-orange-color-wheel);
 }
  
-  .add ,.drop{
-    margin: 2rem;
-  }
+.add ,.drop{
+  margin: 2rem;
+}
+
+.videoex{
+  position: flex;
+  margin-top: 60px;
+  margin-right: 10px;
+}
+
+.example{
+  display: flex;
+  align-items: center;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  padding-top: 16px;
+}
+
+label {
+  background-color: var(--red-orange-color-wheel);
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+#file-chosen{
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+}
+
