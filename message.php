@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudentList</title>
+    <title>Message</title>
 
     <!--css link-->
-    <link rel="stylesheet" href="./css/stylestudentlist.css?v=<?php echo time(); ?>" />
+    <link rel="stylesheet" href="./css/stylemessage.css?v=<?php echo time(); ?>" />
     <link rel="stylesheet" href="./css/media_queries.css" />
     <link rel="stylesheet" href="./css/animation.css" />
 
@@ -20,7 +20,9 @@ family=Jost:wght@500;600;700;800;900&display=swap"
     />
 </head>
 <body>
+
     <div class="container">
+        
         <header>
 
             <nav class="navbar">
@@ -52,7 +54,7 @@ family=Jost:wght@500;600;700;800;900&display=swap"
 
                 </ul>
 
-                
+
 
                 <button class="nav-toggle-btn">
                     <span class="one"></span>
@@ -63,9 +65,9 @@ family=Jost:wght@500;600;700;800;900&display=swap"
             </nav>
 
         </header>
-
+    
         <main>
-            
+
             <section class="main-section">
                 <!--background and shape-->
                 <div class="deco-shape shape-1">
@@ -80,38 +82,9 @@ family=Jost:wght@500;600;700;800;900&display=swap"
                 <div class="deco-shape shape-4">
                     <img src="./image/shape-4.png" alt="art shape" width="30">
                 </div>
-
-            
-            <!--table-->
-                <table class="styled-table">
-                    <thead>
-                        <tr>
-                            <th>Email</th>
-                            <th>FirstName</th>
-                            <th>LastName</th>
-                            <th>PhoneNumber</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>daewtoy@gmail.com</td>
-                            <td>Parada</td>
-                            <td>Sarawong</td>
-                            <td>0877684003</td>
-                        </tr>
-                        <tr class="active-row">
-                            <td>faisxfix@gmail.com</td>
-                            <td>Narawit</td>
-                            <td>Choeychom</td>
-                            <td>0123456789</td>
-                        </tr>
-                        <!-- and so on... -->
-                    </tbody>
-                </table>
-
             </section>
+
         </main>
-        
     </div>
     <!-- JavaScript -->
     <script src="js/script.js?v=<?php echo time(); ?>"></script>
