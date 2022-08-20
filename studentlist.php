@@ -38,16 +38,16 @@ family=Jost:wght@500;600;700;800;900&display=swap"
                         <a href="./studentlist.php">Students List</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#course">Talk with Student</a>
+                        <a href="./message.php">Talk with Student</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#blog">Course Status</a>
+                        <a href="./status.php">Course Status</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact">Edit Document</a>
+                        <a href="./document.php">Edit Document</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact">Edit Exam</a>
+                        <a href="./editexam.php">Edit Exam</a>
                     </li>
 
                 </ul>
